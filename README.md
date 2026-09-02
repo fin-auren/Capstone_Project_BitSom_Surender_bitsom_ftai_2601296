@@ -144,9 +144,3 @@ write-up; this root README summarizes the highlights below.
     └── README.md
 ```
 
-## Academic integrity
-
-All code, analysis, and written interpretations in this repository are original work produced
-for this capstone, following only the parameters/logic mandated by the brief for the seed-data
-generators (which are specified verbatim and must not be changed, by design, so results are
-independently reproducible and gradable).
