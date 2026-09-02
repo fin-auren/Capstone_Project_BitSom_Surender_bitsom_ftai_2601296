@@ -1,0 +1,11 @@
+{
+  "ticker": "PAYTECH",
+  "stock_data": {
+    "beta": 1.55,
+    "analyst_expected_return": 0.19,
+    "std_dev": 0.34
+  },
+  "bull_agent": "With an analyst-expected return of 19.0% against a beta of 1.55, PAYTECH offers attractive risk-adjusted upside for growth-oriented Paytm Money investors -- the higher beta simply means it captures more of the market's upside in a rising-rate, rising-market environment.",
+  "bear_agent": "PAYTECH's standard deviation of 34% and beta of 1.55 mean it will fall harder than the market in any drawdown -- a 34% annualized volatility implies large single-year swings, which is a real risk for any investor with a shorter horizon or lower loss tolerance than 'Aggressive'.",
+  "synthesizer": "PAYTECH pairs a high expected return (19.0%) with high volatility (34%) and a beta of 1.55 well above 1 -- the bull case is real for investors who can tolerate the swings the bear case describes, so PAYTECH belongs only in allocations sized for an Aggressive risk tier, not as a core holding for Conservative or Moderate investors."
+}

@@ -1,0 +1,36 @@
+{
+  "base_fcff_inr_cr": 335.0,
+  "growth_path": [
+    0.18,
+    0.15,
+    0.12,
+    0.09,
+    0.06
+  ],
+  "terminal_growth": 0.05,
+  "cost_of_equity": 0.151,
+  "after_tax_cost_of_debt": 0.0675,
+  "wacc": 0.126,
+  "fcff_projection_inr_cr": [
+    395.3,
+    454.6,
+    509.1,
+    555.0,
+    588.3
+  ],
+  "terminal_value_inr_cr": 8132.7,
+  "dcf_enterprise_value_inr_cr": 6230.8,
+  "sensitivity_table_inr_cr": {
+    "WACC=11.60%,g=4.00%": 6437.7,
+    "WACC=11.60%,g=5.00%": 7195.0,
+    "WACC=11.60%,g=6.00%": 8222.9,
+    "WACC=12.60%,g=4.00%": 5670.1,
+    "WACC=12.60%,g=5.00%": 6230.8,
+    "WACC=12.60%,g=6.00%": 6961.5,
+    "WACC=13.60%,g=4.00%": 5063.0,
+    "WACC=13.60%,g=5.00%": 5491.4,
+    "WACC=13.60%,g=6.00%": 6032.6
+  },
+  "min_wacc_minus_growth_margin": 0.056,
+  "ev_ebitda_cross_check_inr_cr": 4320.0
+}

@@ -1,4 +1,5 @@
-# These are the requirement for the compilation of these programs. 
+# Consolidated requirements for all three parts of this capstone (one file, as noted in the
+# root README). Tested with Python 3.11.
 pandas>=2.0
 numpy>=1.24
 openpyxl>=3.1

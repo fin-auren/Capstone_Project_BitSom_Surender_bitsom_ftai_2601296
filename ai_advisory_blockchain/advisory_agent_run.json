@@ -1,0 +1,157 @@
+[
+  {
+    "investor_id": "INV01",
+    "risk_tolerance": "Conservative",
+    "allocation": {
+      "PAYBOND": 0.3333,
+      "PAYGOLD": 0.3333,
+      "PAYRETAIL": 0.3333
+    },
+    "tool_data_used": {
+      "PAYBOND": {
+        "beta": 0.05,
+        "analyst_expected_return": 0.065,
+        "std_dev": 0.04
+      },
+      "PAYGOLD": {
+        "beta": 0.2,
+        "analyst_expected_return": 0.08,
+        "std_dev": 0.12
+      },
+      "PAYRETAIL": {
+        "beta": 0.85,
+        "analyst_expected_return": 0.11,
+        "std_dev": 0.17
+      }
+    },
+    "expected_portfolio_return": 0.092,
+    "portfolio_variance": 0.007122,
+    "portfolio_std_dev": 0.0844,
+    "status": "FINALIZED",
+    "narrative": "For Conservative investor INV01, we recommend an allocation across ['PAYBOND', 'PAYGOLD', 'PAYRETAIL'] with an expected portfolio return of 9.2% and volatility of 8.4%."
+  },
+  {
+    "investor_id": "INV02",
+    "risk_tolerance": "Moderate",
+    "allocation": {
+      "PAYRETAIL": 0.3333,
+      "PAYINFRA": 0.3333,
+      "PAYGOLD": 0.3333
+    },
+    "tool_data_used": {
+      "PAYRETAIL": {
+        "beta": 0.85,
+        "analyst_expected_return": 0.11,
+        "std_dev": 0.17
+      },
+      "PAYINFRA": {
+        "beta": 1.1,
+        "analyst_expected_return": 0.135,
+        "std_dev": 0.22
+      },
+      "PAYGOLD": {
+        "beta": 0.2,
+        "analyst_expected_return": 0.08,
+        "std_dev": 0.12
+      }
+    },
+    "expected_portfolio_return": 0.113,
+    "portfolio_variance": 0.015802,
+    "portfolio_std_dev": 0.1257,
+    "status": "FINALIZED",
+    "narrative": "For Moderate investor INV02, we recommend an allocation across ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD'] with an expected portfolio return of 11.3% and volatility of 12.6%."
+  },
+  {
+    "investor_id": "INV03",
+    "risk_tolerance": "Aggressive",
+    "allocation": {
+      "PAYTECH": 0.3333,
+      "PAYFIN": 0.3333,
+      "PAYINFRA": 0.3333
+    },
+    "tool_data_used": {
+      "PAYTECH": {
+        "beta": 1.55,
+        "analyst_expected_return": 0.19,
+        "std_dev": 0.34
+      },
+      "PAYFIN": {
+        "beta": 1.35,
+        "analyst_expected_return": 0.16,
+        "std_dev": 0.28
+      },
+      "PAYINFRA": {
+        "beta": 1.1,
+        "analyst_expected_return": 0.135,
+        "std_dev": 0.22
+      }
+    },
+    "expected_portfolio_return": 0.15,
+    "portfolio_variance": 0.042373,
+    "portfolio_std_dev": 0.2058,
+    "status": "ESCALATED_TO_HUMAN_ADVISOR",
+    "narrative": "ESCALATED_TO_HUMAN_ADVISOR: computed portfolio std dev 20.58% exceeds the 20% auto-finalize threshold for Aggressive investor INV03; a human advisor must review before this recommendation is communicated."
+  },
+  {
+    "investor_id": "INV04",
+    "risk_tolerance": "Moderate",
+    "allocation": {
+      "PAYRETAIL": 0.3333,
+      "PAYINFRA": 0.3333,
+      "PAYGOLD": 0.3333
+    },
+    "tool_data_used": {
+      "PAYRETAIL": {
+        "beta": 0.85,
+        "analyst_expected_return": 0.11,
+        "std_dev": 0.17
+      },
+      "PAYINFRA": {
+        "beta": 1.1,
+        "analyst_expected_return": 0.135,
+        "std_dev": 0.22
+      },
+      "PAYGOLD": {
+        "beta": 0.2,
+        "analyst_expected_return": 0.08,
+        "std_dev": 0.12
+      }
+    },
+    "expected_portfolio_return": 0.113,
+    "portfolio_variance": 0.015802,
+    "portfolio_std_dev": 0.1257,
+    "status": "FINALIZED",
+    "narrative": "For Moderate investor INV04, we recommend an allocation across ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD'] with an expected portfolio return of 11.3% and volatility of 12.6%."
+  },
+  {
+    "investor_id": "INV05",
+    "risk_tolerance": "Aggressive",
+    "allocation": {
+      "PAYTECH": 0.3333,
+      "PAYFIN": 0.3333,
+      "PAYINFRA": 0.3333
+    },
+    "tool_data_used": {
+      "PAYTECH": {
+        "beta": 1.55,
+        "analyst_expected_return": 0.19,
+        "std_dev": 0.34
+      },
+      "PAYFIN": {
+        "beta": 1.35,
+        "analyst_expected_return": 0.16,
+        "std_dev": 0.28
+      },
+      "PAYINFRA": {
+        "beta": 1.1,
+        "analyst_expected_return": 0.135,
+        "std_dev": 0.22
+      }
+    },
+    "expected_portfolio_return": 0.15,
+    "portfolio_variance": 0.042373,
+    "portfolio_std_dev": 0.2058,
+    "status": "ESCALATED_TO_HUMAN_ADVISOR",
+    "narrative": "ESCALATED_TO_HUMAN_ADVISOR: computed portfolio std dev 20.58% exceeds the 20% auto-finalize threshold for Aggressive investor INV05; a human advisor must review before this recommendation is communicated."
+  }
+]
